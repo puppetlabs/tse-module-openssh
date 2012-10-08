@@ -1,4 +1,4 @@
-opensshpfs
-==========
+ssh
+===
 
-quick PFS demonstration using ssh
+A demonstration of the Pacakge/File/Service pattern in Puppet using ssh

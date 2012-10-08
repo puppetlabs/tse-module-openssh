@@ -1,4 +1,4 @@
-class ssh::redhat {
+class ssh::debian {
 
   package { 'openssh-server':
     ensure => installed,
@@ -10,10 +10,10 @@ class ssh::redhat {
     owner  => 'root',
     group  => 'root',
     mode   => '0600',
-    source => 'puppet:///modules/ssh/redhat/sshd_config',
+    source => 'puppet:///modules/ssh/debian/sshd_config',
   }
 
-  service { 'sshd':
+  service { 'ssh':
     ensure    => running,
     enable    => true,
     subscribe => File['/etc/ssh/sshd_config'],
