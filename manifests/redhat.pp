@@ -1,4 +1,4 @@
-class ssh::redhat {
+class openssh::redhat {
 
   package { 'openssh-server':
     ensure => installed,

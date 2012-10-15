@@ -1,4 +1,4 @@
-class ssh::debian {
+class openssh::debian {
 
   package { 'openssh-server':
     ensure => installed,
