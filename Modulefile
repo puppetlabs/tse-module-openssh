@@ -1,5 +1,5 @@
 name    'reidmv-openssh'
-version '0.0.1'
+version '0.0.2'
 source 'git://github.com/reidmv/puppet-module-openssh'
 author 'reidmv'
 license 'Apache License, Version 2.0'

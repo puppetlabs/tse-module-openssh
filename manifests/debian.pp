@@ -10,7 +10,7 @@ class openssh::debian {
     owner  => 'root',
     group  => 'root',
     mode   => '0600',
-    source => 'puppet:///modules/ssh/debian/sshd_config',
+    source => 'puppet:///modules/openssh/debian/sshd_config',
   }
 
   service { 'ssh':

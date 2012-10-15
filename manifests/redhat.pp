@@ -10,7 +10,7 @@ class openssh::redhat {
     owner  => 'root',
     group  => 'root',
     mode   => '0600',
-    source => 'puppet:///modules/ssh/redhat/sshd_config',
+    source => 'puppet:///modules/openssh/redhat/sshd_config',
   }
 
   service { 'sshd':
